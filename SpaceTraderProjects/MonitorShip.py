@@ -1,18 +1,29 @@
-import BrendanSpaceTraderApi.ApiAccount as ApiAccount
+import BrendanSpaceTraderApi as STApi
 import os
+import configparser
+
+def workingFilepath(fpath):
+    return os.path.dirname(__file__) + "/" + fpath
+
+def configGetUserToken():
+    config = configparser.ConfigParser()
+    config.sections()
+
+    print(workingFilepath('token.ini'))
+    config.read(workingFilepath('token.ini'))
+    print(config)
+    print(config.sections())
+    
+    username = config['default']['username']
+    token = config['default']['token']
+    return (username, token)
 
 def main():
     print('hello world')
-    token = ''
-    workingDirectory = os.path.dirname(__file__)
-    with open(workingDirectory + '/token') as f:
-        try:
-            token = f.read().splitlines()[0]
-        except e:
-            print('failed to get token', e)
+    username, token = configGetUserToken()
     print(str(token))
 
-    account = ApiAccount.getAccount('semicolon42', token)
+    account = STApi.ApiAccount.getAccount('semicolon42', token)
     if account == None:
         print('no account info')
     else:

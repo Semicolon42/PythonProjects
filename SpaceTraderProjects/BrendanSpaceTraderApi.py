@@ -6,7 +6,7 @@ class BaseApi:
 
 class ApiAccount:
     def getAccount(username, token):
-        url = base_url() + '/users/' + username
+        url = BaseApi.base_url() + '/users/' + username
         headers = {'User-Agent': 'Mozilla/5.0'}
         params = {'token': token}
         try:
