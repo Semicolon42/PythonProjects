@@ -1,4 +1,4 @@
-import BrendanSpaceTraderApi as STApi
+import BrendanSpaceTraderApi.AccountApi as STAccountApi
 import os
 import configparser
 
@@ -23,7 +23,7 @@ def main():
     username, token = configGetUserToken()
     print(str(token))
 
-    account = STApi.ApiAccount.getAccount('semicolon42', token)
+    account = STAccountApi.getAccount('semicolon42', token)
     if account == None:
         print('no account info')
     else:

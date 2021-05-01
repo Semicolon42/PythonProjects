@@ -1,4 +1,4 @@
-import BrendanSpaceTraderApi as STApi
+from BrendanSpaceTraderApi import AccountApi as STAccountApi
 import os
 import json
 import sys
@@ -9,7 +9,7 @@ def current_milli_time():
     return round(time.time() * 1000)
 
 def saveCompanyStateLocally(companyConfig):
-    filename = f"./companyTokens/{companyConfig['company']['name']}.json"
+    filename = f"./companyTokens/{companyName}.json"
     with open(filename, 'w') as outfile:
         json.dump(companyConfig, outfile)
 
@@ -23,7 +23,7 @@ def operationSetSate(companyConfig, targetState):
 
 def operationRefresh(companyConfig):
     print(f"Operation Refresh Company {companyConfig['company']['name']}")
-    response = STApi.ApiAccount.getAccount(companyConfig['company']['name'], companyConfig['company']['token'])
+    response = STAccountApi.getAccount(companyConfig['company']['name'], companyConfig['company']['token'])
     response = response['user']
     print(f"Company Details Retrieved {companyConfig['company']['name']} {response}")
     if 'credits' in response:
@@ -44,11 +44,11 @@ def operationRefresh(companyConfig):
     print(f"Company Refreshed {companyConfig['company']['name']}")
     
 def getAllAvailableLoans(companyConfig):
-    loans = STApi.ApiAccount.getAvailableLoans(companyConfig['company']['token'])
+    loans = STAccountApi.getAvailableLoans(companyConfig['company']['token'])
     print('loans:', loans)
     for loan in loans:
         print('loan:', loan)
-        STApi.ApiAccount.acquireLoan(companyConfig['company']['name'], companyConfig['company']['token'], loan['type'])
+        STAccountApi.acquireLoan(companyConfig['company']['name'], companyConfig['company']['token'], loan['type'])
     companyConfig['management']['state'] = "BUY_SHIP"
     operationRefresh(companyConfig)
 
@@ -78,7 +78,7 @@ def loadCompanyConfigFile(companyName):
             comapnyConfig = json.load(configFile)
     else:
         print(f"Company config DOES NOT exist: {filename}")
-        response = STApi.ApiAccount.createAccount(companyName)
+        response = STAccountApi.createAccount(companyName)
         print(f"{response['user']['username']} {response['token']}")
 
         now = current_milli_time()
