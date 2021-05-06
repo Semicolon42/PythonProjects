@@ -1,0 +1,3 @@
+class SpaceShipManagement():
+    def ShipCycle():
+        ##
