@@ -1,0 +1,66 @@
+{
+    "name": "temp_corp_b",
+    "token": "23ad3647-6b3f-436c-88c6-28021ccc886d",
+    "timestamp_created": 1620364689831,
+    "timestamp_modified": 1620364698557,
+    "stats": {
+        "username": "temp_corp_b",
+        "credits": 27425,
+        "ships": [
+            {
+                "id": "ckodvaxbr15430151bs6r5oe4g9a",
+                "location": "OE-PM-TR",
+                "x": 21,
+                "y": -24,
+                "cargo": [],
+                "spaceAvailable": 50,
+                "type": "HM-MK-I",
+                "class": "MK-I",
+                "maxCargo": 50,
+                "speed": 3,
+                "manufacturer": "Hermes",
+                "plating": 20,
+                "weapons": 5
+            },
+            {
+                "id": "ckodvavlb15416151bs6266p3gff",
+                "location": "OE-PM-TR",
+                "x": 21,
+                "y": -24,
+                "cargo": [],
+                "spaceAvailable": 50,
+                "type": "HM-MK-I",
+                "class": "MK-I",
+                "maxCargo": 50,
+                "speed": 3,
+                "manufacturer": "Hermes",
+                "plating": 20,
+                "weapons": 5
+            },
+            {
+                "id": "ckodvayk815442961bs633eq3mz2",
+                "location": "OE-PM-TR",
+                "x": 21,
+                "y": -24,
+                "cargo": [],
+                "spaceAvailable": 50,
+                "type": "HM-MK-I",
+                "class": "MK-I",
+                "maxCargo": 50,
+                "speed": 3,
+                "manufacturer": "Hermes",
+                "plating": 20,
+                "weapons": 5
+            }
+        ],
+        "loans": [
+            {
+                "id": "ckodvav1w15412021bs6c6ute8h2",
+                "due": "2021-05-09T05:18:13.171Z",
+                "repaymentAmount": 280000,
+                "status": "CURRENT",
+                "type": "STARTUP"
+            }
+        ]
+    }
+}

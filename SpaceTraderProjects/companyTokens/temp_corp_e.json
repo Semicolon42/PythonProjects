@@ -1,0 +1,13 @@
+{
+    "name": "temp_corp_e",
+    "token": "60d7aed7-56ed-4601-a1ab-a0fc5ecd9d11",
+    "timestamp_created": 1620366113475,
+    "timestamp_modified": 1620366113648,
+    "ships": {},
+    "stats": {
+        "username": "temp_corp_e",
+        "credits": 0,
+        "ships": [],
+        "loans": []
+    }
+}

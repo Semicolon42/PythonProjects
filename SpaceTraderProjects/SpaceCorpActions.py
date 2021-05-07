@@ -23,11 +23,11 @@ class SpaceCorpActions():
 
         now = SpaceCorpActions.current_milli_time()
         companyConfig = dict()
-        companyConfig = dict()
         companyConfig['name'] = f'{companyName}'
         companyConfig['token'] = response['token']
         companyConfig['timestamp_created'] = now
         companyConfig['timestamp_modified'] = now
+        companyConfig['ships'] = dict()
 
         response2 = STAccountApi.getAccount(response['user']['username'], response['token'])
         companyConfig['stats'] = response2['user']
@@ -36,26 +36,29 @@ class SpaceCorpActions():
 
     def loadCompanyFile(companyName):
         filename = SpaceCorpActions.getCompanyFilename(companyName)
-        comapnyConfig = None
+        companyConfig = None
         if (os.path.exists(filename)):
             print(f"Company config exists: {filename}")
             with open(filename) as configFile:
-                comapnyConfig = json.load(configFile)
+                companyConfig = json.load(configFile)
         else:
             print(f"Company config DOES NOT exist: {filename}")
-        return comapnyConfig
+        return companyConfig
     
     def refreshCompanyFile(companyName, companyToken):
         print(f"Operation Refresh Company {companyName}")
-        companyCofig = SpaceCorpActions.loadCompanyFile(companyName)
-        if companyCofig == None:
+        companyConfig = SpaceCorpActions.loadCompanyFile(companyName)
+        if companyConfig == None:
             print(f"No company file for {companyName}")
             return None
 
         response = STAccountApi.getAccount(companyName, companyToken)
         if response is not None:
             companyConfig['stats'] = response['user']
+            for ship in response['user']['ships']:
+                companyConfig['ships'][ship['id']] = dict()
+                companyConfig['ships'][ship['id']]['stats'] = ship
 
-        SpaceCorpActions.saveCompanyStateLocally(companyConfig)
+        SpaceCorpActions.saveCompanyFile(companyConfig)
         print(f"Company Refreshed {companyConfig['name']}")
         return companyConfig

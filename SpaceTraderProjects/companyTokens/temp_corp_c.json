@@ -1,0 +1,37 @@
+{
+    "name": "temp_corp_c",
+    "token": "1b673004-9412-462a-8eb8-b24312838430",
+    "timestamp_created": 1620365464357,
+    "timestamp_modified": 1620365601357,
+    "ships": {},
+    "stats": {
+        "username": "temp_corp_c",
+        "credits": 142475,
+        "ships": [
+            {
+                "id": "ckodvs3lw3691851bs62dk4imok",
+                "location": "OE-PM-TR",
+                "x": 21,
+                "y": -24,
+                "cargo": [],
+                "spaceAvailable": 50,
+                "type": "HM-MK-I",
+                "class": "MK-I",
+                "maxCargo": 50,
+                "speed": 3,
+                "manufacturer": "Hermes",
+                "plating": 20,
+                "weapons": 5
+            }
+        ],
+        "loans": [
+            {
+                "id": "ckodvrhex3525911bs6jz5riw17",
+                "due": "2021-05-09T05:31:08.646Z",
+                "repaymentAmount": 280000,
+                "status": "CURRENT",
+                "type": "STARTUP"
+            }
+        ]
+    }
+}

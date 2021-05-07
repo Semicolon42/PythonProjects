@@ -1,0 +1,55 @@
+{
+    "name": "temp_corp_d",
+    "token": "f8081984-e179-4f25-867f-f05d902f8fb2",
+    "timestamp_created": 1620365629097,
+    "timestamp_modified": 1620365974642,
+    "ships": {
+        "ckodvv0uz4546921bs6rdilhgha": {
+            "stats": {
+                "id": "ckodvv0uz4546921bs6rdilhgha",
+                "location": "OE-PM-TR",
+                "x": 21,
+                "y": -24,
+                "cargo": [],
+                "spaceAvailable": 50,
+                "type": "HM-MK-I",
+                "class": "MK-I",
+                "maxCargo": 50,
+                "speed": 3,
+                "manufacturer": "Hermes",
+                "plating": 20,
+                "weapons": 5
+            }
+        }
+    },
+    "stats": {
+        "username": "temp_corp_d",
+        "credits": 142475,
+        "ships": [
+            {
+                "id": "ckodvv0uz4546921bs6rdilhgha",
+                "location": "OE-PM-TR",
+                "x": 21,
+                "y": -24,
+                "cargo": [],
+                "spaceAvailable": 50,
+                "type": "HM-MK-I",
+                "class": "MK-I",
+                "maxCargo": 50,
+                "speed": 3,
+                "manufacturer": "Hermes",
+                "plating": 20,
+                "weapons": 5
+            }
+        ],
+        "loans": [
+            {
+                "id": "ckodvv0ib4543251bs6dqr4h48m",
+                "due": "2021-05-09T05:33:53.362Z",
+                "repaymentAmount": 280000,
+                "status": "CURRENT",
+                "type": "STARTUP"
+            }
+        ]
+    }
+}
