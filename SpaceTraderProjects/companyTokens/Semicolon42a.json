@@ -1,1 +1,12 @@
-{"company": {"name": "Semicolon42a", "token": "orifn3ofp934fn3iuf", "timestamp_created": 1619672990431, "timestamp_modified": 1619672990431}}
+{
+    "name": "Semicolon42a",
+    "token": "1791656b-d9e4-4e99-90ae-a0b6c6fad301",
+    "timestamp_created": 1620879301493,
+    "timestamp_modified": 1620879301843,
+    "stats": {
+        "username": "Semicolon42a",
+        "credits": 0,
+        "ships": [],
+        "loans": []
+    }
+}
