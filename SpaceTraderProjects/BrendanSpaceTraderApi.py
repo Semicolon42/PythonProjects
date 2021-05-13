@@ -122,6 +122,19 @@ class MarketApi:
 
 
 class SystemsApi:
+    def getSystems(token):
+        url = BaseApi.base_url() + f'/game/systems/'
+        headers = {'User-Agent': f'{BaseApi.scriptHostName()}'}
+        params = {'token': token}
+        try:
+            response = requests.get(url, headers=headers, params=params)
+            print(f'GET {url} {response.status_code}')  
+            return response.json()
+        except e:
+            print(f'failed to get systems', e)
+        
+        return None
+
     def getLocationsInSystem(token, system):
         url = BaseApi.base_url() + f'/game/systems/{system}/locations'
         headers = {'User-Agent': f'{BaseApi.scriptHostName()}'}
@@ -138,7 +151,6 @@ class SystemsApi:
         return None
 
 class ManageShipApi:
-
     def postPurchaseGood(username, token, shipId, good, quantity):
         url = f'{BaseApi.base_url()}/users/{username}/purchase-orders'
         headers = {'User-Agent': f'{BaseApi.scriptHostName()}'}
