@@ -1,0 +1,1160 @@
+{
+	"version": 1,
+	"collections": [
+		{
+			"id": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+			"uid": "0-8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+			"name": "SpaceTraders API",
+			"description": "A collection for interacting with the [SpaceTraders API](https://spacetraders.io/).",
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "password",
+						"value": "{{{{token}}}}"
+					},
+					{
+						"key": "token",
+						"value": "{{token}}",
+						"type": "string"
+					}
+				]
+			},
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "956ab270-c8b2-4858-ab59-edb147cc299b",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "bf7165bd-6217-4ebf-a295-5e31489bc6ba",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"variables": [],
+			"order": [
+				"72ded949-b539-4c0a-bf4b-635d0fe96bce"
+			],
+			"folders_order": [
+				"5eddcab1-f7cf-413b-859b-a3bef50ab61c",
+				"6e111ce1-52a5-49c3-831a-adb735b6470c",
+				"0e532055-792b-4b91-acee-53dd43208d1e",
+				"d8b3ce3b-3f29-483e-92d5-89d405e02a60",
+				"11641b42-9a3e-4fb0-9b2e-a8e54b2767bb",
+				"4db77de1-1649-4287-bc32-f49e5e3e535b",
+				"14cf8f38-ffa4-43c7-b97e-59f0cefe35c9",
+				"e91bf760-606b-4446-8920-395d0d746254",
+				"9212b8e9-ebe0-4c6f-add8-7157007a75fb",
+				"b5b3c50a-e5e9-4b80-8c35-c53e406a352f",
+				"59084d6d-5ee8-49c7-be6e-927304929f57"
+			],
+			"protocolProfileBehavior": {},
+			"createdAt": "2021-05-07T21:42:50.335Z",
+			"folders": [
+				{
+					"id": "14cf8f38-ffa4-43c7-b97e-59f0cefe35c9",
+					"uid": "0-14cf8f38-ffa4-43c7-b97e-59f0cefe35c9",
+					"name": "Flight Plans",
+					"description": null,
+					"auth": null,
+					"events": null,
+					"collection": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"folder": null,
+					"order": [
+						"022fcf17-803a-4542-9045-6edb3facedb3",
+						"9736ddc5-68d9-47b8-be2e-716f0c5a06ff",
+						"cd80e124-328d-4281-8212-ea352b15297d"
+					],
+					"folders_order": [],
+					"owner": "0",
+					"protocolProfileBehavior": {},
+					"createdAt": "2021-05-07T21:42:50.337Z",
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"folderId": "14cf8f38-ffa4-43c7-b97e-59f0cefe35c9"
+				},
+				{
+					"id": "11641b42-9a3e-4fb0-9b2e-a8e54b2767bb",
+					"uid": "0-11641b42-9a3e-4fb0-9b2e-a8e54b2767bb",
+					"name": "Loans",
+					"description": null,
+					"auth": null,
+					"events": null,
+					"collection": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"folder": null,
+					"order": [
+						"92938e36-663a-4477-a4ff-6d9aac99f83f",
+						"6654b283-4097-44f6-b9e1-39d5b04ec9aa",
+						"3265f62f-16e5-4cba-8582-914997e2953c",
+						"17765b0d-afd1-475b-a629-20721ebaa8b4"
+					],
+					"folders_order": [],
+					"owner": "0",
+					"protocolProfileBehavior": {},
+					"createdAt": "2021-05-07T21:42:50.337Z",
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"folderId": "11641b42-9a3e-4fb0-9b2e-a8e54b2767bb"
+				},
+				{
+					"id": "0e532055-792b-4b91-acee-53dd43208d1e",
+					"uid": "0-0e532055-792b-4b91-acee-53dd43208d1e",
+					"name": "Locations",
+					"description": null,
+					"auth": null,
+					"events": null,
+					"collection": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"folder": null,
+					"order": [
+						"d81238ea-b670-4f4c-897b-a12c22eac587",
+						"afa82923-a194-494e-9f7e-a2972b27dc2b",
+						"701c5196-f174-43b9-bde5-891dbb484934"
+					],
+					"folders_order": [],
+					"owner": "0",
+					"protocolProfileBehavior": {},
+					"createdAt": "2021-05-07T21:42:50.337Z",
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"folderId": "0e532055-792b-4b91-acee-53dd43208d1e"
+				},
+				{
+					"id": "9212b8e9-ebe0-4c6f-add8-7157007a75fb",
+					"uid": "0-9212b8e9-ebe0-4c6f-add8-7157007a75fb",
+					"name": "Marketplace",
+					"description": null,
+					"auth": null,
+					"events": null,
+					"collection": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"folder": null,
+					"order": [
+						"48b57421-d515-40e6-8f3d-810c2396d39c"
+					],
+					"folders_order": [],
+					"owner": "0",
+					"protocolProfileBehavior": {},
+					"createdAt": "2021-05-07T21:42:50.337Z",
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"folderId": "9212b8e9-ebe0-4c6f-add8-7157007a75fb"
+				},
+				{
+					"id": "b5b3c50a-e5e9-4b80-8c35-c53e406a352f",
+					"uid": "0-b5b3c50a-e5e9-4b80-8c35-c53e406a352f",
+					"name": "Purchase Orders",
+					"description": null,
+					"auth": null,
+					"events": null,
+					"collection": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"folder": null,
+					"order": [
+						"2bcdacba-f105-4d05-9ce7-2fed45905a81"
+					],
+					"folders_order": [],
+					"owner": "0",
+					"protocolProfileBehavior": {},
+					"createdAt": "2021-05-07T21:42:50.337Z",
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"folderId": "b5b3c50a-e5e9-4b80-8c35-c53e406a352f"
+				},
+				{
+					"id": "59084d6d-5ee8-49c7-be6e-927304929f57",
+					"uid": "0-59084d6d-5ee8-49c7-be6e-927304929f57",
+					"name": "Sell Orders",
+					"description": null,
+					"auth": null,
+					"events": null,
+					"collection": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"folder": null,
+					"order": [
+						"2b47ac1f-e41a-48ee-8061-36feecc227dd"
+					],
+					"folders_order": [],
+					"owner": "0",
+					"protocolProfileBehavior": {},
+					"createdAt": "2021-05-07T21:42:50.337Z",
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"folderId": "59084d6d-5ee8-49c7-be6e-927304929f57"
+				},
+				{
+					"id": "4db77de1-1649-4287-bc32-f49e5e3e535b",
+					"uid": "0-4db77de1-1649-4287-bc32-f49e5e3e535b",
+					"name": "Ships",
+					"description": null,
+					"auth": null,
+					"events": null,
+					"collection": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"folder": null,
+					"order": [
+						"6a909a6d-af43-4f2e-861d-8285c111b503",
+						"9fc1547e-38f5-433a-bc89-5d617110dbf7",
+						"3547418a-4e10-4c5e-aadb-7f2de062bb8a",
+						"7dba3a6f-a1b1-41c9-85e2-e508ec67d305",
+						"b2f7bde3-7cca-4e51-a104-051e972316df",
+						"8be0839e-c4b2-4d50-9da6-2c543aa3d524"
+					],
+					"folders_order": [],
+					"owner": "0",
+					"protocolProfileBehavior": {},
+					"createdAt": "2021-05-07T21:42:50.337Z",
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"folderId": "4db77de1-1649-4287-bc32-f49e5e3e535b"
+				},
+				{
+					"id": "d8b3ce3b-3f29-483e-92d5-89d405e02a60",
+					"uid": "0-d8b3ce3b-3f29-483e-92d5-89d405e02a60",
+					"name": "Structures",
+					"description": null,
+					"auth": null,
+					"events": null,
+					"collection": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"folder": null,
+					"order": [
+						"578c1dc7-edad-44a0-8b0f-5c89ea2e3732",
+						"28ff77c3-86a6-45b1-8f32-d9798d490168"
+					],
+					"folders_order": [],
+					"owner": "0",
+					"protocolProfileBehavior": {},
+					"createdAt": "2021-05-07T21:42:50.337Z",
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"folderId": "d8b3ce3b-3f29-483e-92d5-89d405e02a60"
+				},
+				{
+					"id": "6e111ce1-52a5-49c3-831a-adb735b6470c",
+					"uid": "0-6e111ce1-52a5-49c3-831a-adb735b6470c",
+					"name": "Systems",
+					"description": null,
+					"auth": null,
+					"events": null,
+					"collection": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"folder": null,
+					"order": [
+						"5ba92fd1-4d53-4cea-9ad1-1fbbda7eef4b"
+					],
+					"folders_order": [],
+					"owner": "0",
+					"protocolProfileBehavior": {},
+					"createdAt": "2021-05-07T21:42:50.337Z",
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"folderId": "6e111ce1-52a5-49c3-831a-adb735b6470c"
+				},
+				{
+					"id": "5eddcab1-f7cf-413b-859b-a3bef50ab61c",
+					"uid": "0-5eddcab1-f7cf-413b-859b-a3bef50ab61c",
+					"name": "Users",
+					"description": null,
+					"auth": null,
+					"events": null,
+					"collection": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"folder": null,
+					"order": [
+						"c63814b4-e52d-4664-af92-e748aea50022",
+						"5463e06f-44ed-4c69-92fa-e3012c3a4b8d"
+					],
+					"folders_order": [],
+					"owner": "0",
+					"protocolProfileBehavior": {},
+					"createdAt": "2021-05-07T21:42:50.337Z",
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"folderId": "5eddcab1-f7cf-413b-859b-a3bef50ab61c"
+				},
+				{
+					"id": "e91bf760-606b-4446-8920-395d0d746254",
+					"uid": "0-e91bf760-606b-4446-8920-395d0d746254",
+					"name": "Warp Jump",
+					"description": null,
+					"auth": null,
+					"events": null,
+					"collection": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"folder": null,
+					"order": [
+						"71a6b3bb-2715-48eb-a26c-7e6a3e4c27c6"
+					],
+					"folders_order": [],
+					"owner": "0",
+					"protocolProfileBehavior": {},
+					"createdAt": "2021-05-07T21:42:50.337Z",
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"folderId": "e91bf760-606b-4446-8920-395d0d746254"
+				}
+			],
+			"requests": [
+				{
+					"id": "022fcf17-803a-4542-9045-6edb3facedb3",
+					"uid": "0-022fcf17-803a-4542-9045-6edb3facedb3",
+					"name": "Submit a new flight plan",
+					"url": "{{baseUrl}}/users/:username/flight-plans",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [
+						{
+							"key": "username",
+							"value": "{{username}}"
+						}
+					],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "14cf8f38-ffa4-43c7-b97e-59f0cefe35c9",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"rawModeData": "{\r\n    \"shipId\": \"\",\r\n    \"destination\": \"OE-PM\"\r\n}",
+					"headers": "",
+					"pathVariables": {
+						"username": "{{username}}"
+					}
+				},
+				{
+					"id": "17765b0d-afd1-475b-a629-20721ebaa8b4",
+					"uid": "0-17765b0d-afd1-475b-a629-20721ebaa8b4",
+					"name": "Pay off a loan",
+					"url": "{{baseUrl}}/users/:username/loans/:loanId",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "PUT",
+					"pathVariableData": [
+						{
+							"key": "username",
+							"value": "{{username}}"
+						},
+						{
+							"key": "loanId",
+							"value": "",
+							"description": "The ID of the loan that you want to pay off."
+						}
+					],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "11641b42-9a3e-4fb0-9b2e-a8e54b2767bb",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"headers": "",
+					"pathVariables": {
+						"username": "{{username}}",
+						"loanId": ""
+					}
+				},
+				{
+					"id": "28ff77c3-86a6-45b1-8f32-d9798d490168",
+					"uid": "0-28ff77c3-86a6-45b1-8f32-d9798d490168",
+					"name": "Deposit materials to a structure",
+					"url": "{{baseUrl}}/game/structures/:structureId/deposit",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [
+						{
+							"key": "structureId",
+							"value": ""
+						}
+					],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "d8b3ce3b-3f29-483e-92d5-89d405e02a60",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"rawModeData": "{\r\n    \"shipId\": \"\",\r\n    \"good\": \"ELECTRONICS\",\r\n    \"quanity\": 100\r\n}",
+					"headers": "",
+					"pathVariables": {
+						"structureId": ""
+					}
+				},
+				{
+					"id": "2b47ac1f-e41a-48ee-8061-36feecc227dd",
+					"uid": "0-2b47ac1f-e41a-48ee-8061-36feecc227dd",
+					"name": "Place a new sell order",
+					"url": "{{baseUrl}}/users/:username/sell-orders",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [
+						{
+							"key": "username",
+							"value": "{{username}}"
+						}
+					],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "59084d6d-5ee8-49c7-be6e-927304929f57",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"rawModeData": "{\r\n    \"shipId\": \"\",\r\n    \"good\": \"FUEL\",\r\n    \"quantity\": 5\r\n}",
+					"headers": "",
+					"pathVariables": {
+						"username": "{{username}}"
+					}
+				},
+				{
+					"id": "2bcdacba-f105-4d05-9ce7-2fed45905a81",
+					"uid": "0-2bcdacba-f105-4d05-9ce7-2fed45905a81",
+					"name": "Place a new purchase order",
+					"url": "{{baseUrl}}/users/:username/purchase-orders",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [
+						{
+							"key": "username",
+							"value": "{{username}}"
+						}
+					],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "b5b3c50a-e5e9-4b80-8c35-c53e406a352f",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"rawModeData": "{\r\n    \"shipId\": \"\",\r\n    \"good\": \"FUEL\",\r\n    \"quantity\": 20\r\n}",
+					"headers": "",
+					"pathVariables": {
+						"username": "{{username}}"
+					}
+				},
+				{
+					"id": "3265f62f-16e5-4cba-8582-914997e2953c",
+					"uid": "0-3265f62f-16e5-4cba-8582-914997e2953c",
+					"name": "View your loans",
+					"url": "{{baseUrl}}/users/:username/loans",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [
+						{
+							"key": "username",
+							"value": "{{username}}"
+						}
+					],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "11641b42-9a3e-4fb0-9b2e-a8e54b2767bb",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"headers": "",
+					"pathVariables": {
+						"username": "{{username}}"
+					}
+				},
+				{
+					"id": "3547418a-4e10-4c5e-aadb-7f2de062bb8a",
+					"uid": "0-3547418a-4e10-4c5e-aadb-7f2de062bb8a",
+					"name": "View your ships",
+					"url": "{{baseUrl}}/users/:username/ships",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [
+						{
+							"key": "username",
+							"value": "{{username}}"
+						}
+					],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "4db77de1-1649-4287-bc32-f49e5e3e535b",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"headers": "",
+					"pathVariables": {
+						"username": "{{username}}"
+					}
+				},
+				{
+					"id": "48b57421-d515-40e6-8f3d-810c2396d39c",
+					"uid": "0-48b57421-d515-40e6-8f3d-810c2396d39c",
+					"name": "View marketplace at a location",
+					"url": "{{baseUrl}}/game/locations/:symbol/marketplace",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [
+						{
+							"key": "symbol",
+							"value": "OE-PM-TR",
+							"description": "The symbol of a location to view its marketplace."
+						}
+					],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "9212b8e9-ebe0-4c6f-add8-7157007a75fb",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"headers": "",
+					"pathVariables": {
+						"symbol": "OE-PM-TR"
+					}
+				},
+				{
+					"id": "5463e06f-44ed-4c69-92fa-e3012c3a4b8d",
+					"uid": "0-5463e06f-44ed-4c69-92fa-e3012c3a4b8d",
+					"name": "View user info",
+					"url": "{{baseUrl}}/users/:username",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [
+						{
+							"key": "username",
+							"value": ""
+						}
+					],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "5eddcab1-f7cf-413b-859b-a3bef50ab61c",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"headers": "",
+					"pathVariables": {
+						"username": ""
+					}
+				},
+				{
+					"id": "578c1dc7-edad-44a0-8b0f-5c89ea2e3732",
+					"uid": "0-578c1dc7-edad-44a0-8b0f-5c89ea2e3732",
+					"name": "View a structure",
+					"url": "{{baseUrl}}/game/structures/:structureId",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [
+						{
+							"key": "structureId",
+							"value": "ckmk4pb4o1457fnwwtiwjm86n",
+							"description": "The ID of the structure to view."
+						}
+					],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "d8b3ce3b-3f29-483e-92d5-89d405e02a60",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"headers": "",
+					"pathVariables": {
+						"structureId": "ckmk4pb4o1457fnwwtiwjm86n"
+					}
+				},
+				{
+					"id": "5ba92fd1-4d53-4cea-9ad1-1fbbda7eef4b",
+					"uid": "0-5ba92fd1-4d53-4cea-9ad1-1fbbda7eef4b",
+					"name": "View systems",
+					"url": "{{baseUrl}}/game/systems?token=c8a3c749-abc3-4d14-9ed8-ce104a91972f",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [
+						{
+							"key": "token",
+							"value": "c8a3c749-abc3-4d14-9ed8-ce104a91972f",
+							"equals": true,
+							"description": null,
+							"enabled": true
+						}
+					],
+					"auth": null,
+					"events": null,
+					"folder": "6e111ce1-52a5-49c3-831a-adb735b6470c",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "6654b283-4097-44f6-b9e1-39d5b04ec9aa",
+					"uid": "0-6654b283-4097-44f6-b9e1-39d5b04ec9aa",
+					"name": "Take out a loan",
+					"url": "{{baseUrl}}/users/:username/loans",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [
+						{
+							"key": "username",
+							"value": "{{username}}"
+						}
+					],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "11641b42-9a3e-4fb0-9b2e-a8e54b2767bb",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"rawModeData": "{\r\n    \"type\": \"STARTUP\"\r\n}",
+					"headers": "",
+					"pathVariables": {
+						"username": "{{username}}"
+					}
+				},
+				{
+					"id": "6a909a6d-af43-4f2e-861d-8285c111b503",
+					"uid": "0-6a909a6d-af43-4f2e-861d-8285c111b503",
+					"name": "View available ships",
+					"url": "{{baseUrl}}/game/ships",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "4db77de1-1649-4287-bc32-f49e5e3e535b",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "701c5196-f174-43b9-bde5-891dbb484934",
+					"uid": "0-701c5196-f174-43b9-bde5-891dbb484934",
+					"name": "View docked ships at a location",
+					"url": "{{baseUrl}}/game/locations/:symbol/ships",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [
+						{
+							"key": "symbol",
+							"value": "OE-BO",
+							"description": "The symbol of the location to view docked ships."
+						}
+					],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "0e532055-792b-4b91-acee-53dd43208d1e",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"headers": "",
+					"pathVariables": {
+						"symbol": "OE-BO"
+					}
+				},
+				{
+					"id": "71a6b3bb-2715-48eb-a26c-7e6a3e4c27c6",
+					"uid": "0-71a6b3bb-2715-48eb-a26c-7e6a3e4c27c6",
+					"name": "Warp jump ship through a wormhole",
+					"url": "{{baseUrl}}/users/:username/warp-jump",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [
+						{
+							"key": "username",
+							"value": "{{username}}"
+						}
+					],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "e91bf760-606b-4446-8920-395d0d746254",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"rawModeData": "{\r\n    \"shipId\": \"\"\r\n}",
+					"headers": "",
+					"pathVariables": {
+						"username": "{{username}}"
+					}
+				},
+				{
+					"id": "72ded949-b539-4c0a-bf4b-635d0fe96bce",
+					"uid": "0-72ded949-b539-4c0a-bf4b-635d0fe96bce",
+					"name": "Game status",
+					"url": "{{baseUrl}}/game/status",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": null,
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "7dba3a6f-a1b1-41c9-85e2-e508ec67d305",
+					"uid": "0-7dba3a6f-a1b1-41c9-85e2-e508ec67d305",
+					"name": "View details of one of your ships",
+					"url": "{{baseUrl}}/users/:username/ships/:shipId",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [
+						{
+							"key": "username",
+							"value": "{{username}}"
+						},
+						{
+							"key": "shipId",
+							"value": "",
+							"description": "The ID of the ship that you want to view."
+						}
+					],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "4db77de1-1649-4287-bc32-f49e5e3e535b",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"headers": "",
+					"pathVariables": {
+						"username": "{{username}}",
+						"shipId": ""
+					}
+				},
+				{
+					"id": "8be0839e-c4b2-4d50-9da6-2c543aa3d524",
+					"uid": "0-8be0839e-c4b2-4d50-9da6-2c543aa3d524",
+					"name": "Scrap a ship for credits",
+					"url": "{{baseUrl}}/users/:username/ships/:shipId",
+					"description": "The ship will be scrapped for 1/4 of its original value.",
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "DELETE",
+					"pathVariableData": [
+						{
+							"key": "username",
+							"value": "{{username}}"
+						},
+						{
+							"key": "shipId",
+							"value": "",
+							"description": "The ID of the ship that you want to scrap for credits."
+						}
+					],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "4db77de1-1649-4287-bc32-f49e5e3e535b",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"headers": "",
+					"pathVariables": {
+						"username": "{{username}}",
+						"shipId": ""
+					}
+				},
+				{
+					"id": "92938e36-663a-4477-a4ff-6d9aac99f83f",
+					"uid": "0-92938e36-663a-4477-a4ff-6d9aac99f83f",
+					"name": "View available loans",
+					"url": "{{baseUrl}}/game/loans",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "11641b42-9a3e-4fb0-9b2e-a8e54b2767bb",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "9736ddc5-68d9-47b8-be2e-716f0c5a06ff",
+					"uid": "0-9736ddc5-68d9-47b8-be2e-716f0c5a06ff",
+					"name": "View existing flight plan",
+					"url": "{{baseUrl}}/users/:username/flight-plans/:flightPlanId",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [
+						{
+							"key": "username",
+							"value": "{{username}}"
+						},
+						{
+							"key": "flightPlanId",
+							"value": "",
+							"description": "The ID of the flight plan that you want to view."
+						}
+					],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "14cf8f38-ffa4-43c7-b97e-59f0cefe35c9",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"headers": "",
+					"pathVariables": {
+						"username": "{{username}}",
+						"flightPlanId": ""
+					}
+				},
+				{
+					"id": "9fc1547e-38f5-433a-bc89-5d617110dbf7",
+					"uid": "0-9fc1547e-38f5-433a-bc89-5d617110dbf7",
+					"name": "Buy a new ship",
+					"url": "{{baseUrl}}/users/:username/ships",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [
+						{
+							"key": "username",
+							"value": "{{username}}"
+						}
+					],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "4db77de1-1649-4287-bc32-f49e5e3e535b",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"rawModeData": "{\r\n    \"location\": \"OE-PM-TR\",\r\n    \"type\": \"JW-MK-I\"\r\n}",
+					"headers": "",
+					"pathVariables": {
+						"username": "{{username}}"
+					}
+				},
+				{
+					"id": "afa82923-a194-494e-9f7e-a2972b27dc2b",
+					"uid": "0-afa82923-a194-494e-9f7e-a2972b27dc2b",
+					"name": "View a location",
+					"url": "{{baseUrl}}/game/locations/:symbol",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [
+						{
+							"key": "symbol",
+							"value": "OE-XV-91-2",
+							"description": "The symbol of the location to view."
+						}
+					],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "0e532055-792b-4b91-acee-53dd43208d1e",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"headers": "",
+					"pathVariables": {
+						"symbol": "OE-XV-91-2"
+					}
+				},
+				{
+					"id": "b2f7bde3-7cca-4e51-a104-051e972316df",
+					"uid": "0-b2f7bde3-7cca-4e51-a104-051e972316df",
+					"name": "Jettison cargo",
+					"url": "{{baseUrl}}/users/:username/ships/:shipId/jettison",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [],
+					"method": "PUT",
+					"pathVariableData": [
+						{
+							"key": "username",
+							"value": "{{username}}"
+						},
+						{
+							"key": "shipId",
+							"value": "",
+							"description": "The ID of the ship to jettison cargo from."
+						}
+					],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "4db77de1-1649-4287-bc32-f49e5e3e535b",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"rawModeData": "{\r\n    \"good\": \"FUEL\",\r\n    \"qantity\": 1\r\n}",
+					"headers": "",
+					"pathVariables": {
+						"username": "{{username}}",
+						"shipId": ""
+					}
+				},
+				{
+					"id": "c63814b4-e52d-4664-af92-e748aea50022",
+					"uid": "0-c63814b4-e52d-4664-af92-e748aea50022",
+					"name": "Claim username and get token",
+					"url": "{{baseUrl}}/users/:username/token",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [
+						{
+							"key": "username",
+							"value": "{{username}}",
+							"description": "The username you wish to claim."
+						}
+					],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "5eddcab1-f7cf-413b-859b-a3bef50ab61c",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"headers": "",
+					"pathVariables": {
+						"username": "{{username}}"
+					}
+				},
+				{
+					"id": "cd80e124-328d-4281-8212-ea352b15297d",
+					"uid": "0-cd80e124-328d-4281-8212-ea352b15297d",
+					"name": "View all active flight plans in a system",
+					"url": "{{baseUrl}}/game/systems/:symbol/flight-plans",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [
+						{
+							"key": "symbol",
+							"value": "OE",
+							"description": "The symbol of the system to view flight plans."
+						}
+					],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "14cf8f38-ffa4-43c7-b97e-59f0cefe35c9",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"headers": "",
+					"pathVariables": {
+						"symbol": "OE"
+					}
+				},
+				{
+					"id": "d81238ea-b670-4f4c-897b-a12c22eac587",
+					"uid": "0-d81238ea-b670-4f4c-897b-a12c22eac587",
+					"name": "View locations in a system",
+					"url": "{{baseUrl}}/game/systems/:symbol/locations",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [
+						{
+							"key": "symbol",
+							"value": "OE",
+							"description": "The symbol of the system to view locations."
+						}
+					],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "0e532055-792b-4b91-acee-53dd43208d1e",
+					"responses_order": [],
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "8a5daf21-a897-4119-b6c8-9d4b542fa8e6",
+					"headers": "",
+					"pathVariables": {
+						"symbol": "OE"
+					}
+				}
+			]
+		}
+	],
+	"environments": [
+		{
+			"id": "b46221f6-b2fd-4116-85a5-c414c689d6f1",
+			"name": "SpaceTradersAPI",
+			"values": [
+				{
+					"key": "username",
+					"value": "mmm",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "36104542-47da-4e28-895c-5cfade84e952",
+					"enabled": true
+				},
+				{
+					"key": "baseUrl",
+					"value": "https://api.spacetraders.io",
+					"enabled": true
+				}
+			]
+		},
+		{
+			"id": "87e479c8-5ce1-436b-af7c-839a72dff448",
+			"name": "My Workspace - globals",
+			"values": []
+		}
+	],
+	"headerPresets": [],
+	"globals": []
+}
