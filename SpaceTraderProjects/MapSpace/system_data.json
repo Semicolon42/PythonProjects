@@ -1,0 +1,325 @@
+{
+    "systems": [
+        {
+            "symbol": "OE",
+            "name": "Omicron Eridani",
+            "locations": [
+                {
+                    "symbol": "OE-PM",
+                    "type": "PLANET",
+                    "name": "Prime",
+                    "x": 20,
+                    "y": -25,
+                    "allowsConstruction": false,
+                    "structures": []
+                },
+                {
+                    "symbol": "OE-PM-TR",
+                    "type": "MOON",
+                    "name": "Tritus",
+                    "x": 21,
+                    "y": -24,
+                    "allowsConstruction": false,
+                    "structures": []
+                },
+                {
+                    "symbol": "OE-CR",
+                    "type": "PLANET",
+                    "name": "Carth",
+                    "x": 16,
+                    "y": 17,
+                    "allowsConstruction": false,
+                    "structures": []
+                },
+                {
+                    "symbol": "OE-KO",
+                    "type": "PLANET",
+                    "name": "Koria",
+                    "x": -48,
+                    "y": -7,
+                    "allowsConstruction": false,
+                    "structures": []
+                },
+                {
+                    "symbol": "OE-UC",
+                    "type": "PLANET",
+                    "name": "Ucarro",
+                    "x": -65,
+                    "y": 82,
+                    "allowsConstruction": false,
+                    "structures": []
+                },
+                {
+                    "symbol": "OE-UC-AD",
+                    "type": "MOON",
+                    "name": "Ado",
+                    "x": -64,
+                    "y": 83,
+                    "allowsConstruction": true,
+                    "structures": [
+                        {
+                            "id": "ckohsrhlm13187841bs6ckplk1mo",
+                            "type": "CHEMICAL_PLANT",
+                            "location": "OE-UC-AD",
+                            "ownedBy": {
+                                "username": "ZERG"
+                            }
+                        },
+                        {
+                            "id": "ckohsrn6m13205251bs692203xa3",
+                            "type": "FARM",
+                            "location": "OE-UC-AD",
+                            "ownedBy": {
+                                "username": "ZERG"
+                            }
+                        },
+                        {
+                            "id": "ckohsrwtm13231011bs60qfs2x4z",
+                            "type": "MINE",
+                            "location": "OE-UC-AD",
+                            "ownedBy": {
+                                "username": "ZERG"
+                            }
+                        },
+                        {
+                            "id": "ckold2z6h14779221bs64akuxbu3",
+                            "type": "CHEMICAL_PLANT",
+                            "location": "OE-UC-AD",
+                            "ownedBy": {
+                                "username": "bchoii_xxx"
+                            }
+                        },
+                        {
+                            "id": "ckold2zrz14783861bs638fw5zxw",
+                            "type": "MINE",
+                            "location": "OE-UC-AD",
+                            "ownedBy": {
+                                "username": "bchoii_xxx"
+                            }
+                        },
+                        {
+                            "id": "ckold30bz14787281bs68bhoz3zf",
+                            "type": "FARM",
+                            "location": "OE-UC-AD",
+                            "ownedBy": {
+                                "username": "bchoii_xxx"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "symbol": "OE-UC-OB",
+                    "type": "MOON",
+                    "name": "Obo",
+                    "x": -63,
+                    "y": 84,
+                    "allowsConstruction": false,
+                    "structures": []
+                },
+                {
+                    "symbol": "OE-NY",
+                    "type": "ASTEROID",
+                    "name": "Nyon",
+                    "x": 74,
+                    "y": 50,
+                    "allowsConstruction": true,
+                    "structures": [
+                        {
+                            "id": "ckohssagz13271271bs6mj2grv9t",
+                            "type": "MINE",
+                            "location": "OE-NY",
+                            "ownedBy": {
+                                "username": "ZERG"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "symbol": "OE-BO",
+                    "type": "GAS_GIANT",
+                    "name": "Bo",
+                    "x": -64,
+                    "y": -96,
+                    "allowsConstruction": true,
+                    "structures": [
+                        {
+                            "id": "ckohsrawd13168911bs67bvzrrso",
+                            "type": "FUEL_REFINERY",
+                            "location": "OE-BO",
+                            "ownedBy": {
+                                "username": "ZERG"
+                            }
+                        },
+                        {
+                            "id": "ckoit1s377434001bs6b7lpt3fd",
+                            "type": "FUEL_REFINERY",
+                            "location": "OE-BO",
+                            "ownedBy": {
+                                "username": "bchoii_xxx"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "symbol": "OE-XV-91-2",
+                    "type": "WORMHOLE",
+                    "name": "Wormhole",
+                    "x": -2,
+                    "y": 145,
+                    "allowsConstruction": false,
+                    "messages": [
+                        "Extensive research has revealed a partially functioning warp gate harnessing the power of an unstable but traversable wormhole.",
+                        "The scientific community has determined a means of stabilizing the ancient structure.",
+                        "Enter at your own risk.",
+                        "POST https://api.spacetraders.io/game/structures/:structureId/deposit shipId=:shipId good=:goodSymbol quantity=:quantity",
+                        "POST https://api.spacetraders.io/users/{username}/warp-jump shipId=:shipId"
+                    ],
+                    "structures": [
+                        {
+                            "id": "ckogrmuft1646f1wwu3ikxn7j",
+                            "type": "WARP_GATE",
+                            "location": "OE-XV-91-2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "symbol": "XV",
+            "name": "Xiav",
+            "locations": [
+                {
+                    "symbol": "XV-BN",
+                    "type": "NEBULA",
+                    "name": "Bear Nebula",
+                    "x": 102,
+                    "y": 92,
+                    "allowsConstruction": false,
+                    "structures": []
+                },
+                {
+                    "symbol": "XV-ST",
+                    "type": "PLANET",
+                    "name": "Straxabos",
+                    "x": -16,
+                    "y": 26,
+                    "allowsConstruction": false,
+                    "structures": []
+                },
+                {
+                    "symbol": "XV-ST-BG",
+                    "type": "MOON",
+                    "name": "Bragi",
+                    "x": -15,
+                    "y": 27,
+                    "allowsConstruction": true,
+                    "structures": [
+                        {
+                            "id": "ckohsrjrb13196231bs6n5plj2lo",
+                            "type": "CHEMICAL_PLANT",
+                            "location": "XV-ST-BG",
+                            "ownedBy": {
+                                "username": "ZERG"
+                            }
+                        },
+                        {
+                            "id": "ckohsrq6k13212271bs6dsfywc2w",
+                            "type": "FARM",
+                            "location": "XV-ST-BG",
+                            "ownedBy": {
+                                "username": "ZERG"
+                            }
+                        },
+                        {
+                            "id": "ckohss0tn13244541bs64olrj3jq",
+                            "type": "MINE",
+                            "location": "XV-ST-BG",
+                            "ownedBy": {
+                                "username": "ZERG"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "symbol": "XV-XA",
+                    "type": "PLANET",
+                    "name": "Xamarin",
+                    "x": 9,
+                    "y": 12,
+                    "allowsConstruction": false,
+                    "structures": []
+                },
+                {
+                    "symbol": "XV-TLF",
+                    "type": "PLANET",
+                    "name": "Thorix LF",
+                    "x": -79,
+                    "y": -18,
+                    "allowsConstruction": false,
+                    "structures": []
+                },
+                {
+                    "symbol": "XV-OS",
+                    "type": "PLANET",
+                    "name": "Osuhines",
+                    "x": -64,
+                    "y": -35,
+                    "allowsConstruction": false,
+                    "structures": []
+                },
+                {
+                    "symbol": "XV-SN",
+                    "type": "PLANET",
+                    "name": "Sinope",
+                    "x": 43,
+                    "y": -37,
+                    "allowsConstruction": false,
+                    "structures": []
+                },
+                {
+                    "symbol": "XV-CB",
+                    "type": "PLANET",
+                    "name": "Ciubus",
+                    "x": 105,
+                    "y": -22,
+                    "allowsConstruction": false,
+                    "structures": []
+                },
+                {
+                    "symbol": "XV-CB-NM",
+                    "type": "MOON",
+                    "name": "Nami",
+                    "x": 106,
+                    "y": -21,
+                    "allowsConstruction": false,
+                    "structures": []
+                },
+                {
+                    "symbol": "XV-CB-IT",
+                    "type": "MOON",
+                    "name": "Ito",
+                    "x": 107,
+                    "y": -20,
+                    "allowsConstruction": false,
+                    "structures": []
+                },
+                {
+                    "symbol": "XV-OE-2-91",
+                    "type": "WORMHOLE",
+                    "name": "Wormhole",
+                    "x": 145,
+                    "y": -2,
+                    "allowsConstruction": false,
+                    "structures": [
+                        {
+                            "id": "ckogrmuhk1665f1ww34pn3yzw",
+                            "type": "WARP_GATE",
+                            "location": "XV-OE-2-91"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "timestamp_last_modified": 1620976789764
+}
